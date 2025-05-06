@@ -168,3 +168,21 @@ More pages = better site structure, internal linking, and more keyword targeting
 
 >> Summary:
 "Placing sections in src/app/[page] instead of src/components makes them fully routable and crawlable by search engines, resulting in improved SEO through better structure, metadata, and discoverability.
+
+
+
+
+
+BUILD 
+
+
+1. Change next.config.ts for exporting static site
+
+    output: "export",
+    images: {
+        unoptimized: true,
+    },
+
+2. npm run build
+
+3. npx serve out // to run the site
