@@ -1,0 +1,136 @@
+:root {
+    --card_width: 300px;
+    --row_increment: 10px;
+    --card_border_radius: 16px;
+    --cardSm: 26;
+    --cardMd: 33;
+    --cardLg: 44;
+    --cardXl: 48;
+    --cardXxl: 54;
+  
+    --hue: 207;
+    --sat: 90%;
+    --lig: 61%;
+    --first-color: hsl(var(--hue), var(--sat), var(--lig));
+    --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
+    --title-color: hsl(var(--hue), 12%, 15%);
+    --text-color: hsl(var(--hue), 12%, 45%);
+    --text-color-light: hsl(var(--hue), 8%, 75%);
+    --text-color-lighten: hsl(var(--hue), 8%, 92%);
+    --body-color: hsl(var(--hue), 100%, 99%);
+    --container-color: #fff;
+  
+    --body-font: "Poppins", sans-serif;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+  
+  
+  /* CARD SIZES  */
+  .cardSm {
+    grid-row-end: span var(--cardSm);
+  }
+  .cardMd {
+    grid-row-end: span var(--cardMd);
+  }
+  .cardLg {
+    grid-row-end: span var(--cardLg);
+  }
+  .cardXl {
+    grid-row-end: span var(--cardXl);
+  }
+  .cardXxl {
+    grid-row-end: span var(--cardXxl);
+  }
+  
+  
+  /* PROJECT CARD DESIGN */
+  .projectContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+  }
+  
+  .projectContainer .projectCard {
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    margin: 17px 13px;
+    border-radius: var(--card_border_radius);
+    overflow: hidden;
+  }
+  
+  .projectsTitle {
+    font-size: var(--normal-font-size);
+  }
+  
+  .projectsSubtitle {
+    font-size: var(--smaller-font-size);
+  }
+  
+  .modal-open {
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    filter: blur(2px);
+  }
+  
+  
+  .projectContainer .projectCard img {
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+  }
+  
+  .projectContainer .projectCard:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+  
+  .projectsModal {
+    bottom: -100%;
+    background: linear-gradient(
+      180deg,
+      hsla(var(--hue), 24%, 40%, 0.3) 0%,
+      hsla(var(--hue), 24%, 4%, 1) 95%
+    );
+    transition: 0.3s;
+  }
+  
+  .projectLink {
+    background-color: var(--first-color);
+    box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), 0.25);
+  }
+  
+  .projectContainer .projectCard:hover .projectsModal {
+    bottom: 0;
+  }
+  
+  
+  /* MEDIA QUERY */
+  
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    :root {
+      --card_width: 240px;
+      --cardSm: 20;
+      --cardMd: 26;
+      --cardLg: 36;
+      --cardXl: 40;
+      --cardXxl: 45;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    :root {
+      --card_width: 180px;
+      --cardSm: 14;
+      --cardMd: 27;
+      --cardLg: 28;
+      --cardXl: 31;
+      --cardXxl: 36;
+    }
+  
+    .projectContainer .projectContent {
+      height: 30px;
+      margin-top: 30px;
+    }
+  }
+  

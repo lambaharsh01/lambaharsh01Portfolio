@@ -1,0 +1,37 @@
+[
+    {
+        "projectName": "Google Drive API",
+        "category": "Tools",
+        "cardSize": "md",
+        "image": "/projects/googleDrive.jpg",
+        "link": "https://github.com/lambaharsh01/googleDriveApi"
+    },
+    {
+        "projectName": "Furniture Store",
+        "category": "Ecommerce",
+        "cardSize": "md",
+        "image": "/projects/wood.jpg",
+        "link": "https://github.com/lambaharsh01/Wood-furniture-page-"
+    },
+    {
+        "projectName": "Code Editor",
+        "category": "Tools",
+        "cardSize": "sm",
+        "image": "/projects/ide.jpg",
+        "link": "https://github.com/lambaharsh01/ideVanillaJavascript"
+    },
+    {
+        "projectName": "Brochureware",
+        "category": "Digital Publications",
+        "cardSize": "sm",
+        "image": "/projects/vsit.jpg",
+        "link": "https://github.com/lambaharsh01/Vsit"
+    },
+    {
+        "projectName": "Nike Clone",
+        "category": "Ecommerce",
+        "cardSize": "sm",
+        "image": "/projects/nike.jpg",
+        "link": "https://github.com/lambaharsh01/nikeClonePureHTML"
+    }
+]

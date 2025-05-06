@@ -1,0 +1,30 @@
+[
+    {
+        "projectName": "SurveyIt",
+        "category": "Business Tools",
+        "cardSize": "xl",
+        "image": "/projects/surveyIt.jpg",
+        "link": "https://surveyit.lambaharsh01.in/"
+    },
+    {
+        "projectName": "RentCo",
+        "category": "Process Automation",
+        "cardSize": "xl",
+        "image": "/projects/rentCo.jpg",
+        "link": "https://rentco.lambaharsh01.in/"
+    },
+    {
+        "projectName": "Jogger Sports",
+        "category": "Ecommerce",
+        "cardSize": "sm",
+        "image": "/projects/joggerSports.jpg",
+        "link": "https://joggersports.netlify.app/"
+    },
+    {
+        "projectName": "Bus Ticket App",
+        "category": "Ticketing System",
+        "cardSize": "xxl",
+        "image": "/projects/charter.jpg",
+        "link": "https://charter.lambaharsh01.in/"
+    }
+]
