@@ -1,75 +1,106 @@
 "use client"
-import ProjectSection from "@/components/Project/ProvectSection";
 
-// // Variant C: Glass Blur Style Cards
-export default function GlassSkills() {
-  const skills = [
-    { name: "React", desc: "Dynamic user interfaces" },
-    { name: "Next.js", desc: "Full-stack React framework" },
-    { name: "Tailwind CSS", desc: "Utility-first CSS" },
-    { name: "Node.js", desc: "Backend with JavaScript" },
-    { name: "Go", desc: "Compiled backend services" },
-    { name: "Docker", desc: "Containerization platform" },
-  ];
+import CountdownSection from "@/components/Countdown/CountdownSection";
+import ProjectSection from "@/components/Project/ProjectSection";
+
+import TechStackSection from "@/components/TechStack/TechStackSection";
+
+export default function EnhancedGlassSkills() {
 
   return (
-    // <section className="bg-[#f0f4f8] py-20 px-6 backdrop-blur-sm" id="skills">
-    //   <div className="max-w-6xl mx-auto text-center">
-        <ProjectSection/>
-    //     <h2 className="text-3xl font-serif font-bold text-gray-800 mb-12">
-    //       My Current Stack
-    //     </h2>
-    //     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-    //       {skills.map((skill, idx) => (
-    //         <div
-    //           key={idx}
-    //           className="bg-white/60 backdrop-blur-md border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-lg transition text-left"
-    //         >
-    //           <h3 className="text-lg font-semibold text-gray-800 mb-1">
-    //             {skill.name}
-    //           </h3>
-    //           <p className="text-sm text-gray-600">{skill.desc}</p>
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </section>
+    <section>
+
+      <CountdownSection />
+
+      <section className="text-center py-12 bg-gray-100 px-1.5">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+          My Projects
+        </h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          A curated collection of projects built with purpose and passion.
+        </p>
+      </section>
+
+      <ProjectSection />
+
+      <section className="text-center py-12 px-1.5 bg-gray-100 mb-14">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+          My Experience
+        </h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          Over the years, I have honed my skills in backend development, working extensively with technologies like Go, Node.js, and databases such as MySQL and OracleDB.
+          I have led various projects, ensuring smooth coordination between project managers, and developers, while focusing on performance, scalability, and maintainability.
+          Mentoring juniors has been a fulfilling part of my journey, where I guide and support them in developing strong coding practices and achieving their professional growth.
+        </p>
+        <a
+          href="/files/lambaharsh01.pdf"
+          className="inline-block mt-4 px-6 py-2 text-white font-semibold text-lg bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xs"
+          download
+        >
+          Download My Resume
+        </a>
+      </section>
+
+      <section className="text-center py-12 bg-gray-100 px-1.5">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+          Tech Stack
+        </h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          Tools and technologies I use to build fast, scalable, and modern applications.
+        </p>
+      </section>
+
+
+      <TechStackSection />
+
+
+      <section className="text-center py-12 px-1.5 mt-20 mb-10">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+          Fun Fact
+        </h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          I enjoy naming variables more than naming pets.
+        </p>
+      </section>
+
+
+      <section className="text-center py-12 bg-gray-100 px-1.5 mt-10">
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+          Reach Out To Me
+        </h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          Would love to hear from you. Feel free to contact.
+        </p>
+
+        <div className="max-w-4xl mx-auto text-center mt-14">
+          <div className="flex flex-col md:flex-row justify-between gap-6">
+            <div>
+              <h3 className="text-xl font-semibold">Phone</h3>
+              <a href="tel:+918287868558" className="text-base mt-1 text-blue-600 hover:underline">
+                +91 8287868558
+              </a>
+            </div>
+
+            <div className="mt-4">
+              <h3 className="text-xl font-semibold">Email</h3>
+              <a href="mailto:lambaharsh01@gmail.com" className="text-base mt-1 text-blue-600 hover:underline block">
+                lambaharsh01@gmail.com
+              </a>
+              <a href="mailto:lambaharsh0101@gmail.com" className="text-base mt-1 text-blue-600 hover:underline block">
+                lambaharsh0101@gmail.com
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <br />
+      <br />
+
+    </section>
   );
 }
 
-
-
-// // // Variant 4: Hover Reveal Grid
-// // export default function SkillsInteractiveGrid() {
-// //   const skills = [
-// //     { name: "React", desc: "UI library for interactive interfaces" },
-// //     { name: "Next.js", desc: "React framework with SSR & routing" },
-// //     { name: "Tailwind CSS", desc: "Utility-first CSS framework" },
-// //     { name: "Node.js", desc: "Backend JavaScript runtime" },
-// //     { name: "Go", desc: "Compiled language for performance" },
-// //     { name: "Docker", desc: "Containerization and environment setup" },
-// //   ];
-
-// //   return (
-// //     <section className="bg-white py-20 px-4" id="skills">
-// //       <div className="max-w-5xl mx-auto text-center">
-// //         <h2 className="text-3xl font-serif font-semibold text-gray-800 mb-10">
-// //           Skills Overview
-// //         </h2>
-// //         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-// //           {skills.map((skill, idx) => (
-// //             <div
-// //               key={idx}
-// //               className="group border border-gray-200 rounded-lg p-6 text-left bg-gray-50 hover:bg-white hover:shadow-md transition"
-// //             >
-// //               <h4 className="text-lg font-semibold text-gray-700 group-hover:text-indigo-600 transition">
-// //                 {skill.name}
-// //               </h4>
-// //               <p className="text-sm text-gray-500 mt-1">{skill.desc}</p>
-// //             </div>
-// //           ))}
-// //         </div>
-// //       </div>
-// //     </section>
-// //   );
-// // }

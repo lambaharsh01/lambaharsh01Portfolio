@@ -1,0 +1,32 @@
+[
+    {
+        "image": "/techStacks/docker.png",
+        "title": "Docker",
+        "description": "Containerized environments",
+        "threshold": 0.2
+    },
+    {
+        "image": "/techStacks/jenkins.png",
+        "title": "Jenkins",
+        "description": "CI/CD automation tool",
+        "threshold": 0.1
+    },
+    {
+        "image": "/techStacks/linux.png",
+        "title": "Linux",
+        "description": "Open-source OS",
+        "threshold": 0.3
+    },
+    {
+        "image": "/techStacks/nginx.png",
+        "title": "Nginx",
+        "description": "High-performance web server and reverse proxy",
+        "threshold": 0.2
+    },
+    {
+        "image": "/techStacks/github.png",
+        "title": "GitHub",
+        "description": "Code hosting platform",
+        "threshold": 0.1
+    }
+]
