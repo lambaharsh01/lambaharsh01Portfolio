@@ -1,0 +1,62 @@
+[
+    {
+        "image": "/techStacks/go.png",
+        "title": "Go",
+        "description": "Fast compiled language",
+        "threshold": 0.4
+    },
+    {
+        "image": "/techStacks/node.png",
+        "title": "Node Js",
+        "description": "Backend with JavaScript",
+        "threshold": 0.2
+    },
+    {
+        "image": "/techStacks/oracle19c.png",
+        "title": "Oracle DB",
+        "description": "Enterprise SQL database",
+        "threshold": 0.2
+    },
+    {
+        "image": "/techStacks/mySql.png",
+        "title": "MySQL",
+        "description": "Open-source relational database",
+        "threshold": 0.1
+    },
+    {
+        "image": "/techStacks/mongodb.png",
+        "title": "MongoDB",
+        "description": "NoSQL document database",
+        "threshold": 0.4
+    },
+    {
+        "image": "/techStacks/next.png",
+        "title": "Next Js",
+        "description": "React-based framework",
+        "threshold": 0.3
+    },
+    {
+        "image": "/techStacks/typescript.png",
+        "title": "TypeScript",
+        "description": "Typed superset of JavaScript",
+        "threshold": 0.1
+    },
+    {
+        "image": "/techStacks/gin.png",
+        "title": "Gin",
+        "description": "Compiled backend services",
+        "threshold": 0.3
+    },
+    {
+        "image": "/techStacks/react.png",
+        "title": "React Js",
+        "description": "Frontend UI library",
+        "threshold": 0.1
+    },
+    {
+        "image": "/techStacks/javascript.png",
+        "title": "JavaScript",
+        "description": "Web scripting language",
+        "threshold": 0.4
+    }
+]
