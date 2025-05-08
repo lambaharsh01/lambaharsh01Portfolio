@@ -27,7 +27,7 @@ export default function EnhancedGlassSkills() {
         <h1 className="sectionHeading font-extrabold text-gray-900 mb-4">
           My Experience
         </h1>
-        <p className="sectionTextContent text-gray-600 px-4 max-w-6xl mx-auto">
+        <p className="sectionTextContent text-justify text-gray-600 px-4 max-w-6xl mx-auto">
           Over the years, I have honed my skills in backend development, working extensively with technologies like Go, Node.js, and databases such as MySQL and OracleDB.
           I have led various projects, ensuring smooth coordination between project managers, and developers, while focusing on performance, scalability, and maintainability.
           Mentoring juniors has been a fulfilling part of my journey, where I guide and support them in developing strong coding practices and achieving their professional growth.
@@ -64,7 +64,7 @@ export default function EnhancedGlassSkills() {
       </section>
 
 
-      <section className="text-center py-12 bg-gray-100 px-1.5 mt-10">
+      {/* <section className="text-center py-12 bg-gray-100 px-1.5 mt-10">
         <h1 className="sectionHeading font-extrabold text-gray-900 mb-4">
           Reach Out To Me
         </h1>
@@ -94,11 +94,39 @@ export default function EnhancedGlassSkills() {
           </div>
         </div>
 
-      </section>
+      </section> */}
 
 
-      <br />
-      <br />
+
+
+
+      <footer className=" text-white text-center">
+        <div className="bg-gray-800">
+          <div className="h-5" />
+
+          <div className="mt-8 flex flex-col sm:flex-row justify-center gap-8">
+            <a href="https://github.com/lambaharsh01" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              GitHub
+            </a>
+            <a href=" https://www.linkedin.com/in/harsh-lamba-1b185b214" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              LinkedIn
+            </a>
+            <a href="mailto:lambaharsh01@gmail.com" className="hover:underline">
+              Email
+            </a>
+            <a href="tel:+918287868558" className="hover:underline">
+              Phone
+            </a>
+          </div>
+
+          <p className="text-sm mt-8">
+            © 2025 Harsh Lamba.
+          </p>
+          <div className="h-10" />
+
+        </div>
+      </footer>
+
 
     </section>
   );
