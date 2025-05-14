@@ -48,7 +48,7 @@ const CountdownSection: React.FC = () => {
             ></div>
 
             <h2
-              className="text-2xl md:text-3xl font-medium tracking-widest"
+              className="text-2xl md:text-3xl font-semibold  tracking-widest"
               style={{
                 opacity: animationState === "animating" ? 0 : 1,
                 transform: animationState === "animating"
