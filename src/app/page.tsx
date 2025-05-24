@@ -27,7 +27,7 @@ export default function EnhancedGlassSkills() {
         <h1 className="sectionHeading font-extrabold text-gray-900 mb-4">
           My Experience
         </h1>
-        <p className="sectionTextContent text-justify text-gray-600 px-4 max-w-6xl mx-auto">
+        <p className="sectionTextContent text-center text-gray-600 px-4 max-w-6xl mx-auto">
           Over the years, I have honed my skills in backend development, working extensively with technologies like Go, Node.js, and databases such as MySQL and OracleDB.
           I have led various projects, ensuring smooth coordination between project managers, and developers, while focusing on performance, scalability, and maintainability.
           Mentoring juniors has been a fulfilling part of my journey, where I guide and support them in developing strong coding practices and achieving their professional growth.
