@@ -27,8 +27,8 @@ export default function EnhancedGlassSkills() {
         <h1 className="sectionHeading font-extrabold text-gray-900 mb-4">
           My Experience
         </h1>
-        <p className="sectionTextContent text-center text-gray-600 px-4 max-w-6xl mx-auto">
-          Led backend projects in Go/Node.js; optimized systems and mentored juniors.
+        <p className="sectionTextContent text-center text-gray-600 px-4 max-w-6xl mx-auto mb-4">
+          Led backend projects in Go, Node.js, and React.js; optimized systems, mentored juniors, and applied deep expertise in relational databases (MySQL, Oracle).
         </p>
         <a
           href="/files/lambaharsh01.pdf"
