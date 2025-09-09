@@ -31,7 +31,7 @@ export default function EnhancedGlassSkills() {
           Led backend projects in Go, Node.js, and React.js; optimized systems, mentored juniors, and applied deep expertise in relational databases (MySQL, Oracle).
         </p>
         <a
-          href="/files/lambaharsh01.pdf"
+          href="/files/lambaharsh01.docx"
           className="inline-block mt-4 px-6 py-2 text-white font-semibold sectionTextContent bg-gradient-to-r from-indigo-500 to-purple-500 rounded-xs"
           download
         >
