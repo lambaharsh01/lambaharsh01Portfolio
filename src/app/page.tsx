@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import CountdownSection from "@/components/Countdown/CountdownSection";
 import ProjectSection from "@/components/Project/ProjectSection";
@@ -6,10 +6,8 @@ import ProjectSection from "@/components/Project/ProjectSection";
 import TechStackSection from "@/components/TechStack/TechStackSection";
 
 export default function EnhancedGlassSkills() {
-
   return (
     <section>
-
       <CountdownSection />
 
       <section className="text-center py-12 bg-gray-100 px-1.5">
@@ -28,7 +26,9 @@ export default function EnhancedGlassSkills() {
           My Experience
         </h1>
         <p className="sectionTextContent text-center text-gray-600 px-4 max-w-6xl mx-auto mb-4">
-          Led backend projects in Go, Node.js, and React.js; optimized systems, mentored juniors, and applied deep expertise in relational databases (MySQL, Oracle).
+          Led backend projects in Go, Node.js, and React.js; optimized systems,
+          mentored juniors, and applied deep expertise in relational databases
+          (MySQL, Oracle).
         </p>
         <a
           href="/files/lambaharsh01.docx"
@@ -44,13 +44,12 @@ export default function EnhancedGlassSkills() {
           Tech Stack
         </h1>
         <p className="sectionTextContent text-gray-600 px-4 max-w-6xl mx-auto">
-          Tools and technologies I use to build fast, scalable, and modern applications.
+          Tools and technologies I use to build fast, scalable, and modern
+          applications.
         </p>
       </section>
 
-
       <TechStackSection />
-
 
       <section className="text-center py-12 px-1.5 mt-20 mb-10">
         <h1 className="sectionHeading font-extrabold text-gray-900 mb-4">
@@ -60,7 +59,6 @@ export default function EnhancedGlassSkills() {
           I enjoy naming variables more than naming pets.
         </p>
       </section>
-
 
       {/* <section className="text-center py-12 bg-gray-100 px-1.5 mt-10">
         <h1 className="sectionHeading font-extrabold text-gray-900 mb-4">
@@ -94,19 +92,25 @@ export default function EnhancedGlassSkills() {
 
       </section> */}
 
-
-
-
-
       <footer className=" text-white text-center">
         <div className="bg-gray-800">
           <div className="h-5" />
 
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-8">
-            <a href="https://github.com/lambaharsh01" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a
+              href="https://github.com/lambaharsh01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
               GitHub
             </a>
-            <a href=" https://www.linkedin.com/in/harsh-lamba-1b185b214" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            <a
+              href="https://www.linkedin.com/in/harsh-lamba-1b185b214"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
               LinkedIn
             </a>
             <a href="mailto:lambaharsh01@gmail.com" className="hover:underline">
@@ -118,15 +122,19 @@ export default function EnhancedGlassSkills() {
           </div>
 
           <p className="text-sm mt-8">
-            © 2025 Harsh Lamba.
+            <span
+              onClick={() => {
+                window.location.href =
+                  "https://random-stuff-on-internet.netlify.app";
+              }}
+            >
+              ©
+            </span>{" "}
+            2025 Harsh Lamba.
           </p>
           <div className="h-10" />
-
         </div>
       </footer>
-
-
     </section>
   );
 }
-
